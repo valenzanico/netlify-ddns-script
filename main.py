@@ -224,7 +224,6 @@ def validate_config():
         return False
     
     logger.info(f"Configurazione:")
-    logger.info(f"  - SITE_ID: {NETLIFY_SITE_ID}")
     logger.info(f"  - ZONE_ID: {DNS_ZONE_ID}")
     logger.info(f"  - SUBDOMAIN: {SUBDOMAIN}")
     logger.info(f"  - CHECK_INTERVAL: {CHECK_INTERVAL}s")
